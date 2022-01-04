@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family:'Roboto', sans-serif;
+}
+.fist-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#home_section{
+    display: flex;
+}
+#home_section div{
+    width: 50%;
+    padding: 20px;
+    margin-left: 30px;
+}
+#home_section div img{
+    width: 80%;
+}
+#home_section span{
+    color: orange;
+    font-size: 40px;
+}
+#home_section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#home_section2{
+    display: flex;
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-image:30%;
+}
+#home_section2 div{
+    width: 50%;
+    padding: 20px;
+    margin-left: 30px;
+    
+}
+#home_section2 div img{
+    width: 80%;
+}
+#home_section2 span{
+    color: orange;
+    font-size: 40px;
+}
+#home_section2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.fist-section a{
+    height: 40px;
+    width: 60px;
+    padding: 10px 20px;
+    background-image:linear-gradient(orange, red);
+    color:white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.second-section a{
+    height: 40px;
+    width: 60px;
+    padding: 10px 20px;
+    background-image:linear-gradient(orange, red);
+    color:white;
+    border-radius: 5px;
+    font-size: 22px;
+    
+    overflow: hidden;
+}
+#section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-image:30%;
+}
+
+#devoloper_parant{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position-y:100px;
+    background-size: 80px;
+ 
+}
+#devoloper_parant .devepolopers{
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    margin: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+#devolop1{
+    border-left: 6px solid sandybrown;
+}
+#devolop2{
+    border-left: 6px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+
+#devoloper_parant .devepolopers h3{
+    color: orange;
+}
+h5{
+background-color:papayawhip;
+height: 30px;
+padding: 5px;
+font-size: 20px;
+text-align: center;
+}
